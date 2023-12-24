@@ -5,9 +5,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
 
-    @FindBy(xpath = "//section[@id='g-navigation']//a[.='Log in']")
-    public WebElement loginButtoninNav;
-
     @FindBy(id = "Email")
     public WebElement email;
 
